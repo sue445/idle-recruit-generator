@@ -43,3 +43,28 @@ small {
 .idle .name h3 {
     text-align: center;
 }
+
+#form_area{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#form_area .title{
+    width: 800px;
+}
+
+#form_area th{
+    width: 10%;
+}
+
+#form_area td.language{
+    width: 20%;
+}
+
+#form_area td.url{
+    width: 50%;
+}
+
+#form_area td.name{
+    width: 20%;
+}
