@@ -16,6 +16,7 @@ small {
 }
 
 #main {
+    padding-top: 50px;
     max-width: 980px;
 }
 
@@ -67,4 +68,8 @@ small {
 
 #form_area td.name{
     width: 20%;
+}
+
+.share {
+    padding-top: 15px;
 }
