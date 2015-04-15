@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 44px;
+}
+
+h3 {
+    font-size: 33px;
+}
+
+small {
+    display: block;
+}
+
+#main {
+    max-width: 980px;
+}
+
+#row1{
+}
+
+#row2{
+    padding-top: 100px;
+}
+
+.idle {
+    text-align: center;
+    width: 16.66667%;
+}
+
+.idle img{
+    width:  133px;
+    height: 133px;
+}
+
+.idle .language {
+    text-align: center;
+}
+
+.idle .name h3 {
+    text-align: center;
+}
