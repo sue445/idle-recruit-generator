@@ -354,6 +354,9 @@
 <script>
   function updateIdle(target, value){
     if(target.indexOf("icon") == 0){
+      if (value.indexOf('@') == 0){
+        value = "http://www.paper-glasses.com/api/twipi/" +  value.substring(1);
+      }
       $("#" + target).attr("src", value);
     } else{
       $("#" + target).text(value);
