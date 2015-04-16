@@ -195,6 +195,14 @@
       </td>
     </tr>
     <tr>
+      <th>入力項目</td>
+      <td>言語を入力</td>
+      <td>画像ファイルのパス。<br>
+          @で始めるとtwitterのアイコンを表示します。</td>
+      <td>名前</td>
+      <td>
+    </tr>
+    <tr>
       <th>アイドル1</th>
       <td class="language">
         <input type="text" class="form-control" placeholder="言語" data-target="language1" value="java">
@@ -355,7 +363,7 @@
   function updateIdle(target, value){
     if(target.indexOf("icon") == 0){
       if (value.indexOf('@') == 0){
-        value = "http://www.paper-glasses.com/api/twipi/" +  value.substring(1);
+        value = "http://www.paper-glasses.com/api/twipi/" +  value.substring(1) + "/original";
       }
       $("#" + target).attr("src", value);
     } else{
